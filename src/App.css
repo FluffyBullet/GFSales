@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+  background-color: darkblue;
+  color:white;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* ul {
+  list-style: none;
+  width: 85%;
+}
+
+li {
+  width: 300px;
+  padding: 25px;
+  border: solid;
+  margin: 5px;
+} */
+
+.machine-list {
+  justify-content: center;
+  list-style: none; 
+  display:flex;
+  flex-flow:row wrap;
+  gap: 20px;
+}
+
+.machine-card{ 
+  list-style: none;
+  background-color:whitesmoke;
+  width: 24%;
+  height: 450px;
+  display: flex; 
+  flex-flow: column;  
+  padding:15px;
+  border-radius: 5px;
+  color: darkblue;
+}
+
+.machine-card li {
+  list-style: none;
+}
